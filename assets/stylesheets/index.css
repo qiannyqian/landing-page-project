@@ -26,7 +26,11 @@ z-index: -100;
       font-size: 4em;
     }
 
+    .grid-child {
+      flex: 1 0 50%;
     }
+
+}
 
     .main-content {
         display: flex;
@@ -61,3 +65,16 @@ z-index: -100;
         transition: all 0.5s;
         color: black;
       }
+
+.grid-parent {
+  max-width: 1200px;
+  margin: 75px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-child {
+  flex: 1;
+  text-align: center;
+  margin: 30px 0;
+}
